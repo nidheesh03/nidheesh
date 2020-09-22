@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    height:100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1548052281-9fb99c16c905?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#background{
+    height: 1500px;
+    width:100%;
+    position: absolute;
+    background-color: black;
+    opacity: .8;
+    box-sizing: border-box;
+}
+#name-heading{
+    color:black;
+    font-weight: 1000;
+    background-color: white;
+    /* opacity:0.7; */
+    font-family: 'Ranchers', cursive;
+    text-align: center;
+    padding:20px;
+}
+#n-letter{
+    height:100px;
+    position: relative;
+    right:20px;
+    /* position: relative;
+    top:100px; */
+    background-color: white;
+}
+
+#name-heading a{
+    margin-left:100px;
+    text-decoration: none;
+    color:red;
+    font-size:20px;
+}
+#name-heading a:hover{
+    font-size:40px;
+    background-color: cadetblue;
+}
+
+#navbar-2{
+    cursor: pointer;
+}
+/* .myImg{
+    height:500px;
+    width:400px;
+    margin-left:200px;
+    border:1px solid black;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+} */
+
+#about-div{
+    display:none;
+    text-align: center;
+    background-color: gold;
+    font-weight: 1000;
+    font-family: 'Anton', sans-serif;
+}
+#navbar-3{
+    cursor: pointer;
+}
+#navbar-4{
+    cursor: pointer;
+}
+#skills{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: center;
+    align-items: center;
+    background-color: peachpuff;
+    position: relative;
+    top:100px;
+    border:10px solid black;
+    display:none;
+}
+#skills img{
+    height:200px;
+    margin-left: 100px;
+    margin-top:100px;
+}
+#footer{
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display:none;
+    position: relative;
+    top:200px;
+    height:200px;
+}
+#footer img{
+    height:100px;
+    margin-left:50px;
+}
